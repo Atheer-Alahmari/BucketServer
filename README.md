@@ -39,7 +39,7 @@ Next we’ll cd and build our project
 It’s important the project is in your desktop or the next commands won’t work 
 
 Commands 
->	cd ~/Desktop/BucketServer
+>	cd ~/Desktop/(name of the project folder)
 >	vapor build 
 >	vapor xcode 
 
