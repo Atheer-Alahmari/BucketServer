@@ -45,6 +45,14 @@ Commands
 
 Then just run the project on Xcode and you will get a local server usually like 
 http://127.0.0.1:8080  
-  
+ 
+#Errors
+
+If you get a "vapor: Address already in use" error just do this in terminal 
+ 
+> sudo lsof -i :8080
+> kill {PID of the process}
+
+Then run the project again
   
     
