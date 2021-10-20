@@ -27,7 +27,7 @@ First install home brew: https://brew.sh
 Then open terminal and run  
 
 Commands 
->	brew install vapor
+>	brew install vapor \
 >	vapor 
 
 When you run vapor and see a list of commands then you have successfully install vapor 
@@ -39,8 +39,8 @@ Next we’ll cd and build our project
 It’s important the project is in your desktop or the next commands won’t work 
 
 Commands 
->	cd ~/Desktop/(name of the project folder)
->	vapor build 
+>	cd ~/Desktop/(name of the project folder) \
+>	vapor build \
 >	vapor xcode 
 
 Then just run the project on Xcode and you will get a local server usually like 
