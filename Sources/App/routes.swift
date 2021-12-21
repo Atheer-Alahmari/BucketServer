@@ -11,7 +11,7 @@ func routes(_ app: Application) throws {
     
     app.post("tasks", use: taskController.create)
     
-    app.post("tasks",":id", use: taskController.update)
+    app.put("tasks",":id", use: taskController.update)
     
     app.delete("tasks",":id", use: taskController.delete)
     
