@@ -12,7 +12,7 @@ Small API with SQLite database that saves notes for an iOS appliction called Buc
  Header "Content-Type: application/json" \
  
  ### Updating a tasks 
-  POST "(localhost)/tasks/(id)" \
+  PUT "(localhost)/tasks/(id)" \
   Header "Content-Type: application/json" \
   Body: 
  >  {"objective": "Writing to vapor and updated objective here "} \
